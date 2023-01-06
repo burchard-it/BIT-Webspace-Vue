@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2eb8bdf2fe682b6281acc3deddcb0489",
+    "content-hash": "508cba5fc7fdb0216f84d22cf1be53fb",
     "packages": [
         {
             "name": "monolog/monolog",
@@ -109,16 +109,16 @@
         },
         {
             "name": "pentatrion/vite-bundle",
-            "version": "v2.3.2",
+            "version": "v3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lhapaipai/vite-bundle.git",
-                "reference": "0bbbc4649ec8ed1bfc39b973b2aed043f4dc8c30"
+                "reference": "cca9fc2b3e4480ca95632e410a4a718b79101947"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lhapaipai/vite-bundle/zipball/0bbbc4649ec8ed1bfc39b973b2aed043f4dc8c30",
-                "reference": "0bbbc4649ec8ed1bfc39b973b2aed043f4dc8c30",
+                "url": "https://api.github.com/repos/lhapaipai/vite-bundle/zipball/cca9fc2b3e4480ca95632e410a4a718b79101947",
+                "reference": "cca9fc2b3e4480ca95632e410a4a718b79101947",
                 "shasum": ""
             },
             "require": {
@@ -160,9 +160,9 @@
             ],
             "support": {
                 "issues": "https://github.com/lhapaipai/vite-bundle/issues",
-                "source": "https://github.com/lhapaipai/vite-bundle/tree/v2.3.2"
+                "source": "https://github.com/lhapaipai/vite-bundle/tree/v3.0.0"
             },
-            "time": "2023-01-05T22:35:01+00:00"
+            "time": "2023-01-06T19:18:33+00:00"
         },
         {
             "name": "psr/cache",
