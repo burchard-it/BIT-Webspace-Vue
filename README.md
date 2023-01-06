@@ -22,14 +22,14 @@ To create a Vue 3 project run `npm init vue@latest`, **but don't do that in the 
 Vue.js - The Progressive JavaScript Framework
 
 ✔ Project name: … vue-project
-✔ Add TypeScript? … No / <span style="color: aqua">Yes</span>
-✔ Add JSX Support? … <span style="color: aqua">No</span> / Yes
-✔ Add Vue Router for Single Page Application development? … No / <span style="color: aqua">Yes</span>
-✔ Add Pinia for state management? … <span style="color: aqua">No</span> / Yes
-✔ Add Vitest for Unit Testing? … No / <span style="color: aqua">Yes</span>
-✔ Add an End-to-End Testing Solution? › <span style="color: aqua">No</span>
-✔ Add ESLint for code quality? … No / <span style="color: aqua">Yes</span>
-✔ Add Prettier for code formatting? … <span style="color: aqua">No</span> / Yes
+✔ Add TypeScript? … No / <span style="color: #00ffff">Yes</span>
+✔ Add JSX Support? … <span style="color: #00ffff">No</span> / Yes
+✔ Add Vue Router for Single Page Application development? … No / <span style="color: #00ffff">Yes</span>
+✔ Add Pinia for state management? … <span style="color: #00ffff">No</span> / Yes
+✔ Add Vitest for Unit Testing? … No / <span style="color: #00ffff">Yes</span>
+✔ Add an End-to-End Testing Solution? › <span style="color: #00ffff">No</span>
+✔ Add ESLint for code quality? … No / <span style="color: #00ffff">Yes</span>
+✔ Add Prettier for code formatting? … <span style="color: #00ffff">No</span> / Yes
 
 Scaffolding project in /.../vue-project...
 
