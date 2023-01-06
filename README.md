@@ -40,6 +40,7 @@ Done.
 ## Usage
 In the `package.json` there are several scripts that are hopefully self-explanatory.
 
+- `npm i` to install all Node dependencies
 - **composer:install** is used to install all needed Symfony components
 - **dev** is used to start the Vite Dev-Server
 - **symfony** is used to start the Symfony Application
