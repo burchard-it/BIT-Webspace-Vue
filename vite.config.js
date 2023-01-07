@@ -2,6 +2,7 @@ import {fileURLToPath, URL} from 'node:url';
 import {defineConfig} from 'vite';
 import symfonyPlugin from 'vite-plugin-symfony';
 import vue from '@vitejs/plugin-vue';
+import vuetify, {transformAssetUrls} from 'vite-plugin-vuetify';
 
 // https://vitejs.dev/config/
 // noinspection JSUnusedGlobalSymbols
@@ -15,7 +16,13 @@ export default defineConfig({
   },
   plugins: [
     symfonyPlugin(),
-    vue(),
+    vue({
+      template: {transformAssetUrls},
+    }),
+    // https://github.com/vuetifyjs/vuetify-loader/tree/next/packages/vite-plugin
+    vuetify({
+      autoImport: true,
+    }),
   ],
   resolve: {
     alias: {
