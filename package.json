@@ -13,8 +13,7 @@
     "build": "run-p type-check build-only",
     "build-only": "vite build",
     "postbuild": "APP_ENV=prod composer install --no-dev --optimize-autoloader",
-    "preview": "vite preview",
-    "test:unit": "vitest --environment jsdom --root src/",
+    "test:unit": "vitest --environment jsdom --dir src/vue/",
     "type-check": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
