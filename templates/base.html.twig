@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>{% block title %}Webspace Vue{% endblock %}</title>
+  <meta name="author" content="Martin Burchard">
+  <meta name="description" content="BIT Webspace Vue">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="{{ asset('favicon.png') }}">
+  <title>{% block title %}BIT Webspace Vue{% endblock %}</title>
 
   {% block stylesheets %}
     {{ vite_entry_link_tags('app') }}
