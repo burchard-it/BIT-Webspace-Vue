@@ -9,7 +9,8 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        app: './src/vue/main.ts',
+        admin: './src/vue/pages/admin/admin.ts',
+        main: './src/vue/pages/main/main.ts',
       },
     },
   },
