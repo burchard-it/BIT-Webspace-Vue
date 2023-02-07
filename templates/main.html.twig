@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+{% block title %}BIT Webspace Vue Frontend{% endblock %}
+{% block stylesheets %}
+  {{ vite_entry_link_tags('main') }}
+{% endblock %}
+{% block javascripts %}
+  {{ vite_entry_script_tags('main') }}
+{% endblock %}
+{% block body %}
+  <div id="app"></div>
+{% endblock %}
