@@ -7,17 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="{{ asset('favicon.png') }}">
   <title>{% block title %}BIT Webspace Vue{% endblock %}</title>
-
-  {% block stylesheets %}
-    {{ vite_entry_link_tags('app') }}
-  {% endblock %}
-
-  {% block javascripts %}
-    {{ vite_entry_script_tags('app') }}
-  {% endblock %}
+  {% block stylesheets %}{% endblock %}
+  {% block javascripts %}{% endblock %}
 </head>
 <body>
-<div id="app"></div>
 {% block body %}{% endblock %}
 </body>
 </html>
