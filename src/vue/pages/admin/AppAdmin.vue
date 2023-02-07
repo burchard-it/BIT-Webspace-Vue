@@ -1,6 +1,6 @@
 <template>
   <div class="container-xl py-3">
-    <h1>BIT Webspace Vue</h1>
+    <h1>BIT Webspace Vue Admin Frontend</h1>
     <p>Bootstrap is installed</p>
     <p>Current Count {{ counter }}
       <button class="btn btn-outline-primary" @click="doCount">Count</button>
