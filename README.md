@@ -40,12 +40,15 @@ Done.
 ## Usage
 In the `package.json` there are several scripts that are hopefully self-explanatory.
 
-- `npm i` to install all Node dependencies
+The current project build is based on [pnpm][pnpm] but one can also use npm.
+
+- `pnpm i` to install all Node dependencies
 - **composer:install** is used to install all needed Symfony components
 - **dev** is used to start the Vite Dev-Server
 - **symfony** is used to start the Symfony Application
 
 [lhapaipai]: https://github.com/lhapaipai
+[pnpm]: https://pnpm.io/
 [symfony]: https://symfony.com/
 [symfony-vite-bundle]: https://github.com/lhapaipai/vite-bundle
 [vue]: https://vuejs.org/
