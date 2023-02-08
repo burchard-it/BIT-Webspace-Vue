@@ -1,9 +1,11 @@
 {% extends 'base.html.twig' %}
 {% block title %}BIT Webspace Vue Admin Frontend{% endblock %}
 {% block stylesheets %}
+  {{ parent() }}
   {{ vite_entry_link_tags('admin') }}
 {% endblock %}
 {% block javascripts %}
+  {{ parent() }}
   {{ vite_entry_script_tags('admin') }}
 {% endblock %}
 {% block body %}
