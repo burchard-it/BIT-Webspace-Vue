@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f3f68ee28733f380a3488b99baee0ece",
+    "content-hash": "9315b27ea41d1755771be3d24672af48",
     "packages": [
         {
             "name": "doctrine/cache",
@@ -1490,16 +1490,16 @@
         },
         {
             "name": "pentatrion/vite-bundle",
-            "version": "v6.0.1",
+            "version": "v6.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lhapaipai/vite-bundle.git",
-                "reference": "ed8e7f95be6946fd0cc3393f4e738d012be24aea"
+                "reference": "7120e264f409334c57a70fd77a66bdfa44c320f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lhapaipai/vite-bundle/zipball/ed8e7f95be6946fd0cc3393f4e738d012be24aea",
-                "reference": "ed8e7f95be6946fd0cc3393f4e738d012be24aea",
+                "url": "https://api.github.com/repos/lhapaipai/vite-bundle/zipball/7120e264f409334c57a70fd77a66bdfa44c320f2",
+                "reference": "7120e264f409334c57a70fd77a66bdfa44c320f2",
                 "shasum": ""
             },
             "require": {
@@ -1544,9 +1544,9 @@
             ],
             "support": {
                 "issues": "https://github.com/lhapaipai/vite-bundle/issues",
-                "source": "https://github.com/lhapaipai/vite-bundle/tree/v6.0.1"
+                "source": "https://github.com/lhapaipai/vite-bundle/tree/v6.1.1"
             },
-            "time": "2023-11-06T13:26:09+00:00"
+            "time": "2023-11-10T15:53:43+00:00"
         },
         {
             "name": "psr/cache",
