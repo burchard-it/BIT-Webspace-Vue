@@ -22,3 +22,13 @@ services:
 
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
+
+    router_listener:
+      class: Symfony\Component\HttpKernel\EventListener\RouterListener
+      arguments:
+        - '@router'
+        - '@request_stack'
+        - '@?router.request_context'
+        - null
+        - '%kernel.project_dir%'
+        - '%kernel.debug%'
